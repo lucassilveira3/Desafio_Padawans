@@ -1,0 +1,87 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "TestePadawans/1.0.0": {
+        "dependencies": {
+          "System.Net.Http.Formatting": "4.0.20505"
+        },
+        "runtime": {
+          "TestePadawans.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Client/4.0.20505": {
+        "dependencies": {
+          "Microsoft.Net.Http": "2.0.20505",
+          "Newtonsoft.Json": "4.5.1"
+        },
+        "runtime": {
+          "lib/net40/System.Net.Http.Formatting.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.20505.0"
+          }
+        }
+      },
+      "Microsoft.Net.Http/2.0.20505": {
+        "runtime": {
+          "lib/net40/System.Net.Http.WebRequest.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/4.5.1": {
+        "runtime": {
+          "lib/net40/Newtonsoft.Json.dll": {
+            "assemblyVersion": "4.5.0.0",
+            "fileVersion": "4.5.1.14720"
+          }
+        }
+      },
+      "System.Net.Http.Formatting/4.0.20505": {
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "4.0.20505"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestePadawans/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNet.WebApi.Client/4.0.20505": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-A7/s69xXpCZiqX+FfFJ4srEmZfLEutIMwSfZxD4jJI76/gTbfyl2RUvdFeQTuJuJAN2sBqfeym5ihlPch6JwyQ==",
+      "path": "microsoft.aspnet.webapi.client/4.0.20505",
+      "hashPath": "microsoft.aspnet.webapi.client.4.0.20505.nupkg.sha512"
+    },
+    "Microsoft.Net.Http/2.0.20505": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XRsKQP2XEd/DGLerVsU+T2pKQGTFc9ctWsIVbRblL/y+jT/BUo28aJ5mWN40oAeUwwbpXshAc8uO/LRscWav9A==",
+      "path": "microsoft.net.http/2.0.20505",
+      "hashPath": "microsoft.net.http.2.0.20505.nupkg.sha512"
+    },
+    "Newtonsoft.Json/4.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-I8JT47bHXdbCmi9Rks66XtvcuvkrdP3rmSr1dBF828YanmBGqQvtGvVtKIWKuHP6v6+NLLC0nTHGW8p9n4vDtQ==",
+      "path": "newtonsoft.json/4.5.1",
+      "hashPath": "newtonsoft.json.4.5.1.nupkg.sha512"
+    },
+    "System.Net.Http.Formatting/4.0.20505": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gR/8+NHJsz4vhnZkBTgve0UtaLzpdsWuuziRm9Etjw8tl53oTW4a87Z0EzJQoNCt1cImpx6hsYgWzugJ4+B/+g==",
+      "path": "system.net.http.formatting/4.0.20505",
+      "hashPath": "system.net.http.formatting.4.0.20505.nupkg.sha512"
+    }
+  }
+}
